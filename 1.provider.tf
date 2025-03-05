@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 terraform {
-  required_version = "<= 1.11.1" #Forcing which version of Terraform needs to be use
+  required_version = "<= 1.11.1" #Forcing which version of Terraform needs to be us
   required_providers {
     aws = {
       version = "<= 6.0.0" #Forcing which version of plugin needs to be used.

@@ -1,8 +1,8 @@
 data "aws_ami" "my_ami" {
   most_recent = true
-  name_regex  = "^DevSecOps"
-  owners      = ["211125710812"]
-}
+  name_regex  = "^devsecops"
+  owners      = ["992382740554"]
+
 
 
 resource "aws_instance" "webservers" {
